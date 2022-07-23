@@ -7,6 +7,7 @@ import ExerciseCard from "./ExerciseCard";
 import BodyPart from "./BodyPart";
 import RightArrowIcon from "../assets/icons/right-arrow.png";
 import LeftArrowIcon from "../assets/icons/left-arrow.png";
+
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);
 

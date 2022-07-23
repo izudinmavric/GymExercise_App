@@ -12,7 +12,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       sx={
         bodyPart === item
           ? {
-              borderTop: "4px solid #FF2625",
+              borderTop: "4px solid #515B3A",
               background: "#fff",
               borderBottomLeftRadius: "20px",
               width: "270px",
@@ -42,7 +42,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       <Typography
         fontSize="24px"
         fontWeight="bold"
-        color="#3A1212"
+        color="#515B3A"
         textTransform="capitalize"
       >
         {item}

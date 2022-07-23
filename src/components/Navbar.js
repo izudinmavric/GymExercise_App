@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/dumbbell-solid.svg";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,12 @@ const Navbar = () => {
         <img
           src={Logo}
           alt="logo"
-          style={{ width: "48px", height: "48px", margin: "0px 20px" }}
+          style={{
+            width: "60px",
+            height: "60px",
+            margin: "0px 20px",
+            color: "#353D2F",
+          }}
         />
       </Link>
       <Stack
@@ -33,15 +38,15 @@ const Navbar = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
-            borderBottom: "3px solid #FF2625",
+            color: "#353D2F",
+            borderBottom: "3px solid #353D2F",
           }}
         >
           Home
         </Link>
         <a
           href="#exercises"
-          style={{ textDecoration: "none", color: "#3A1212" }}
+          style={{ textDecoration: "none", color: "#353D2F" }}
         >
           Exercises
         </a>

@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
-  font-family: "Josefin Sans";
+  /* font-family: "Josefin Sans"; */
+  font-family: "Montserrat", sans-serif;
   background-color: #fffafb;
 }
 
@@ -22,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: #353d2f;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -54,18 +57,20 @@ body {
 
 .hero-banner-img {
   position: absolute;
-  right: 40px;
+  right: 0px;
   top: 0px;
   width: 700px;
   height: 900px;
   margin-top: -330px;
+  border-radius: 0px 0px 0px 100px;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #ff2625;
+  border-top: 4px solid #353d2f;
+
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -91,8 +96,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #353d2f !important;
+  border: 1px solid #353d2f !important;
 }
 
 .exercise-video {

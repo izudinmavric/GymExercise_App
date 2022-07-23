@@ -11,10 +11,13 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#ffa9a9",
+            background: "#7dcd16",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
+            "&.MuiButtonBase-root:hover": {
+              bgcolor: "#7dcd16",
+            },
           }}
         >
           {exercise.bodyPart}
@@ -23,10 +26,13 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#fcc757",
+            background: "#353D2F",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
+            "&.MuiButtonBase-root:hover": {
+              bgcolor: "#353d2f",
+            },
           }}
         >
           {exercise.target}
